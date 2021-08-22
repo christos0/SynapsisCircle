@@ -1,9 +1,10 @@
 import { Box } from "@chakra-ui/react";
 
-import { Home } from "pages/home/Home";
-import { NavigationMenu } from "../components/navigationMenu";
+import { Home } from "pages/home";
+import { NavigationMenu } from "app/components";
 
 import Logo from "app/assets/logo.png";
+import { Footer } from "./Footer";
 
 export const Layout = () => {
   return (
@@ -17,6 +18,7 @@ export const Layout = () => {
         ]}
       />
       <Home />
+      <Footer />
     </>
   );
 };

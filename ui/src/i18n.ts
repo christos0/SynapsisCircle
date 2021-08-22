@@ -8,11 +8,15 @@ const resources = {
   en: {
     translation: {
       "Welcome to React": "Welcome to React.",
+      About: "About",
+      Contact: "Contact",
     },
   },
   gr: {
     translation: {
       "Welcome to React": "Καλωσήρθατε στην React.",
+      About: "Σχετικά",
+      Contact: "Επικοινωνία",
     },
   },
 };

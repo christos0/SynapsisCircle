@@ -4,7 +4,7 @@ import { App } from "./app/layout/App";
 import reportWebVitals from "./reportWebVitals";
 import "./i18n";
 
-import "./index.css";
+import "./index.scss";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 

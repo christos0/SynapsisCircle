@@ -17,28 +17,36 @@ import { currentLanguageState } from "app/global";
 import GreekFlag from "app/assets/greek_flag.png";
 import AmericanFlag from "app/assets/american_flag.png";
 import { BiChevronDown } from "react-icons/bi";
+import { useTranslation } from "react-i18next";
 
 export const LanguageSlider = () => {
   const { isOpen, onClose, onOpen } = useDisclosure({ defaultIsOpen: true });
 
+  const { i18n } = useTranslation();
   const currLang = useRecoilValue(currentLanguageState);
   const setCurrLang = useSetRecoilState(currentLanguageState);
 
   return (
     <Fade in={isOpen}>
       <Menu isLazy>
-        <MenuButton bg="white" ml={2} as={Button} rightIcon={<BiChevronDown />}>
+        <MenuButton
+          w="180px"
+          bg="white"
+          as={Button}
+          rightIcon={<BiChevronDown />}
+        >
           {currLang === "gr" ? <GreekLanguage /> : <EnglishLanguage />}
         </MenuButton>
         <MenuList>
           <MenuItem
             onClick={() => {
               onClose();
+              i18n.changeLanguage(currLang === "gr" ? "en" : "gr");
               setTimeout(
                 () => setCurrLang(currLang === "gr" ? "en" : "gr"),
-                1000
+                500
               );
-              setTimeout(() => onOpen(), 1000);
+              setTimeout(() => onOpen(), 500);
             }}
           >
             {currLang !== "gr" ? <GreekLanguage /> : <EnglishLanguage />}

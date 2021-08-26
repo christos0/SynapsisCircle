@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/synapsiscircle/static/css/main.646d02c7.chunk.css",
+    "main.js": "/synapsiscircle/static/js/main.661029e9.chunk.js",
+    "main.js.map": "/synapsiscircle/static/js/main.661029e9.chunk.js.map",
+    "runtime-main.js": "/synapsiscircle/static/js/runtime-main.084ee5c0.js",
+    "runtime-main.js.map": "/synapsiscircle/static/js/runtime-main.084ee5c0.js.map",
+    "static/css/2.95f1be73.chunk.css": "/synapsiscircle/static/css/2.95f1be73.chunk.css",
+    "static/js/2.6cada173.chunk.js": "/synapsiscircle/static/js/2.6cada173.chunk.js",
+    "static/js/2.6cada173.chunk.js.map": "/synapsiscircle/static/js/2.6cada173.chunk.js.map",
+    "static/js/3.16e241ef.chunk.js": "/synapsiscircle/static/js/3.16e241ef.chunk.js",
+    "static/js/3.16e241ef.chunk.js.map": "/synapsiscircle/static/js/3.16e241ef.chunk.js.map",
+    "index.html": "/synapsiscircle/index.html",
+    "static/css/2.95f1be73.chunk.css.map": "/synapsiscircle/static/css/2.95f1be73.chunk.css.map",
+    "static/css/main.646d02c7.chunk.css.map": "/synapsiscircle/static/css/main.646d02c7.chunk.css.map",
+    "static/js/2.6cada173.chunk.js.LICENSE.txt": "/synapsiscircle/static/js/2.6cada173.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.084ee5c0.js",
+    "static/css/2.95f1be73.chunk.css",
+    "static/js/2.6cada173.chunk.js",
+    "static/css/main.646d02c7.chunk.css",
+    "static/js/main.661029e9.chunk.js"
+  ]
+}
